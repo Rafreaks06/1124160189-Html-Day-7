@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZebraStripTable</title>
+    <style>
+        th:nth-child(even),
+        td:nth-child(even) {
+            background-color: lightblue;
+        }
+
+        table {
+            width: 100%;
+            border-collapse:collapse ;
+            border: 1px solid;
+        }
+        th {
+            font-family: 'Times New Roman', Times, serif;
+            border:solid 1px ;
+        }
+        th{
+            text-align: center;
+        }
+        td {
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h2>Zebra Strip Table</h2>
+    <p>Untuk Table Bergaris Zebra, NthChild() dan Tambahkan warna ke latar belakang kesemua  baris tabel ganjil atau genap
+    </p>
+    <table style="width:100%">
+        <tr>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+            <th>SUN</th>
+        </tr>
+        <tr>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+        </tr>
+    </table>
+</body>
+</html>
